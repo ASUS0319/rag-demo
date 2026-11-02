@@ -1,0 +1,18 @@
+# 密钥，绝对不能提交
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# pip 中断后残留的临时目录（见 README 常见问题）
+pip-*/
+wheels/
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 注意：index/ 不要忽略！线上部署需要它（见 README）
