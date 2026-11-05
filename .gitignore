@@ -22,3 +22,7 @@ wheels/
 Thumbs.db
 
 # 注意：index/ 不要忽略，线上部署需要它
+
+# 本地阅读用文档，不进仓库（docs 下的截图仍可提交）
+docs/*.md
+docs/*.docx
