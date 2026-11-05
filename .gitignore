@@ -7,7 +7,13 @@ __pycache__/
 .venv/
 venv/
 
-# pip 中断后残留的临时目录（见 README 常见问题）
+# IDE 与本地配置
+.idea/
+.vscode/
+.streamlit/
+AppData/
+
+# pip 中断后残留的临时目录
 pip-*/
 wheels/
 
@@ -15,4 +21,4 @@ wheels/
 .DS_Store
 Thumbs.db
 
-# 注意：index/ 不要忽略！线上部署需要它（见 README）
+# 注意：index/ 不要忽略，线上部署需要它
